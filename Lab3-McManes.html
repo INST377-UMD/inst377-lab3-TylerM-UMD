@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 3 Assignment</title>
+        <link rel="stylesheet" href="lab3style.css">
+    </head>
+    <body>
+        <div class="headerandfooter">
+        <header>
+            <h1>Lab 3 - Rock Paper Scissors</h1>
+        </header>
+        </div>
+
+        <nav>
+            <a href="https://umd.edu/" target="_blank">UMD</a> 
+            <a href="https://testudo.umd.edu/" target="_blank">Testudo</a> 
+            <a href="https://it.umd.edu/" target="_blank">UMD's Division of Information Technology</a>
+        </nav>
+        <form>
+            <h1>Insert your name and choose one of the following choices.</h1>
+            <div class="ReqName">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" name="name" id="name" required><br><br>
+            </div>
+            <div class="RPS">
+                <label for="RPS-select">Your Choice:</label> 
+                <select name="RPS-select" id="RPS-select">
+                    <option value="Rock">Rock</option>
+                    <option value="Paper">Paper</option>
+                    <option value="Scissors">Scissors</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" id="Submit" name="Submit">
+        </form>
+
+        
+        <aside>
+            <h2>Rules:</h2>
+            <p>Choose one of the following:</p>
+            <p>Rock, Paper, Scissors</p>
+            <p>The combos are:</p>
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Paper beats Rock</li>
+                <li>Scissors beat Paper</li>
+            </ul>
+        </aside>
+    
+
+        <div class="headerandfooter">
+            <footer>
+                <h2>Thank you for playing rock paper scissors!</h2>
+            </footer>
+        </div>
+
+    </body>
+</html>
